@@ -1,2 +1,2 @@
 # localbitcoins-sdk
-Library for work with LocalBitcoins API
+A simple library for working with LocalBitcoins API
