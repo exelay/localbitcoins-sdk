@@ -7,10 +7,10 @@ requirements = ["requests>=2"]
 
 setup(
     name="localbitcoins-sdk",
-    version="0.0.2",
+    version="0.0.3",
     author="Aleksei Kirpa",
     author_email="exelay.rapik@gmail.com",
-    description="A simple library for working with LocalBitcoins API",
+    description="A simple sdk for working with LocalBitcoins API",
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/exelay/localbitcoins-sdk",
