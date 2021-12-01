@@ -27,7 +27,7 @@ class Client:
         nonce = self._make_nonce()
         message = self._make_message(nonce, endpoint, params_encoded)
         signature = self._make_signature(message)
-        headers = _make_headers(nonce, signature)
+        headers = self._make_headers(nonce, signature)
 
         response_data = self._get_response_data(method, endpoint, headers, params)
 
